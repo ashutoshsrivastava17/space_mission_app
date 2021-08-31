@@ -1,6 +1,4 @@
-package assignment.leanix.ui
-
-import assignment.leanix.ui.base.BaseNavigator
+package assignment.leanix.ui.navigators
 
 
 /**

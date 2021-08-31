@@ -9,7 +9,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import assignment.leanix.R
 import assignment.leanix.databinding.ActivityMainBinding
-import assignment.leanix.getViewModelFactory
+import assignment.leanix.utils.getViewModelFactory
+import assignment.leanix.ui.viewModels.MainViewModel
 
 class MainActivity : AppCompatActivity() {
 

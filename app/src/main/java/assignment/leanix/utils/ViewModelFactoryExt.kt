@@ -1,8 +1,8 @@
-package assignment.leanix
+package assignment.leanix.utils
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.backbase.assignment.utils.ViewModelFactory
+import assignment.leanix.App
 
 /**
  * Factory for all ViewModels.

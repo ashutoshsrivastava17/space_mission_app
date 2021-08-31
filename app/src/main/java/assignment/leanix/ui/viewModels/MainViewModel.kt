@@ -1,11 +1,11 @@
-package assignment.leanix.ui
+package assignment.leanix.ui.viewModels
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import assignment.leanix.repository.mission.MissionRepository
 import assignment.leanix.repository.mission.models.MissionInfo
-import assignment.leanix.ui.base.BaseViewModel
+import assignment.leanix.ui.navigators.MainNavigator
 import com.backbase.assignment.repository.Result
 import kotlinx.coroutines.launch
 

@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import assignment.leanix.R
 import assignment.leanix.databinding.FragmentMissionsBinding
 import assignment.leanix.repository.mission.models.MissionInfo
-import assignment.leanix.ui.MainViewModel
+import assignment.leanix.ui.viewModels.MainViewModel
 import assignment.leanix.ui.adapters.BaseRecyclerAdapter
 import assignment.leanix.ui.adapters.MissionAdapter
 

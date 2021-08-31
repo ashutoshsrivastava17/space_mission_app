@@ -1,10 +1,11 @@
-package assignment.leanix.ui.base
+package assignment.leanix.ui.viewModels
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import assignment.leanix.R
+import assignment.leanix.ui.navigators.BaseNavigator
 
 
 /**

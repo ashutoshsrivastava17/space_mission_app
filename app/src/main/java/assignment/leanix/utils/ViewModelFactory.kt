@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.backbase.assignment.utils
+package assignment.leanix.utils
 
 import android.os.Bundle
 import androidx.lifecycle.AbstractSavedStateViewModelFactory
@@ -21,7 +21,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.savedstate.SavedStateRegistryOwner
 import assignment.leanix.App
-import assignment.leanix.ui.MainViewModel
+import assignment.leanix.ui.viewModels.MainViewModel
 import com.backbase.assignment.repository.ServiceLocator
 
 /**

@@ -1,4 +1,4 @@
-package assignment.leanix.ui.base
+package assignment.leanix.ui.navigators
 
 
 /**
