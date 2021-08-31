@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="assignment.leanix.ui.MainActivity">
+    <item
+        android:id="@+id/action_sort_by_name"
+        android:orderInCategory="100"
+        android:title="@string/sort_by_name"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_sort_by_name_asc"
+                    android:title="ASC" />
+                <item
+                    android:id="@+id/action_sort_by_name_desc"
+                    android:title="DESC" />
+
+            </group>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/action_by_launch_date"
+        android:orderInCategory="100"
+        android:title="@string/sort_by_launch_date"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_sort_by_launch_date_asc"
+                    android:title="ASC" />
+                <item
+                    android:id="@+id/action_sort_by_launch_date_desc"
+                    android:title="DESC" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LeanIX Sample</string>
+    <string name="sort_by_name">Sort By Name</string>
+    <string name="sort_by_launch_date">Sort By Launch Date</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="mission_fragment">Missions</string>
+    <string name="mission_detail_fragment">Mission Details</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="rocket_name">\"Rocket Name : \"</string>
+    <string name="site">\"Site : \"</string>
+    <string name="launch_date">\"Launch Date : \"</string>
+    <string name="mission">\"Mission : \"</string>
+    <string name="launch_status">\"Launch : \"</string>
+    <string name="successful">Successful</string>
+    <string name="failed">Failed</string>
+</resources>

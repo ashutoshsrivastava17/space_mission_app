@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MissionFragment">
+
+    <fragment
+        android:id="@+id/MissionFragment"
+        android:name="assignment.leanix.ui.fragments.MissionsFragment"
+        android:label="@string/mission_fragment"
+        tools:layout="@layout/fragment_missions">
+
+        <action
+            android:id="@+id/action_mission_to_mission_detail"
+            app:destination="@id/MissionDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/MissionDetailFragment"
+        android:name="assignment.leanix.ui.fragments.MissionDetailFragment"
+        android:label="@string/mission_detail_fragment"
+        tools:layout="@layout/fragment_mission_detail">
+        <argument
+            android:name="missionInfo"
+            app:argType="android.os.Parcelable" />
+        <action
+            android:id="@+id/action_mission_detail_to_mission"
+            app:destination="@id/MissionFragment"
+            />
+    </fragment>
+</navigation>
